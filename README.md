@@ -65,20 +65,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-##Migrations
+## Migrations
+
 To create all the nessesary tables and columns, run the following
 
-`php artisan migrate`.
-##Seeding The Database
+`php artisan migrate`
+
+## Seeding The Database
+
 To add the dummy listings with a single user, run the following
 
-`php artisan db:seed`.
-##File Uploading
+`php artisan db:seed`
+
+## File Uploading
+
 When uploading listing files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
 
 `php artisan storage:link`.
 
-##Running The App
+## Running The App
+
 Upload the files to your document root, Valet folder or run
 
 `php artisan serve`
