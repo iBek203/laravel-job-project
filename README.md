@@ -65,7 +65,7 @@ To add the dummy listings with a single user, run the following
 
 When uploading listing files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
 
-`php artisan storage:link`.
+`php artisan storage:link`
 
 ## Running The App
 
